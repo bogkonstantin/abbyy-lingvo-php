@@ -1,6 +1,8 @@
 {
     "name": "bog/abbyy-lingvo-php",
     "description": "PHP interface to ABBYY Lingvo API",
+    "keywords": ["abbyy","dictionary", "translate"],
+    "version": "1.0.0",
     "require": {
         "guzzlehttp/guzzle": "^6.3"
     },
@@ -11,7 +13,13 @@
     "authors": [
         {
             "name": "Konstantin Bogomolov",
-            "email": "bog.konstantin@gmail.com"
+            "email": "bog.konstantin@gmail.com",
+            "homepage": "http://kbogomolov.ru"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-0": {
+            "AbbyyLingvo": "src/"
+        }
+    }
 }
