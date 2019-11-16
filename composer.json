@@ -2,7 +2,7 @@
     "name": "bog/abbyy-lingvo-php",
     "description": "PHP interface to ABBYY Lingvo API",
     "keywords": ["abbyy","dictionary", "translate"],
-    "version": "1.0.0",
+    "version": "1.0.2",
     "require": {
         "guzzlehttp/guzzle": "^6.3"
     },
